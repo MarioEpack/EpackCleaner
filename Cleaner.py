@@ -1,4 +1,4 @@
-# This is a script for deleting the compressed files.
+# This is a script for deleting the compressed files.(right now , only works for .rar extentions)
 # Using a magic library to determine if the files is indeed compressed.
 
 import os
