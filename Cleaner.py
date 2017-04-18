@@ -41,8 +41,8 @@ for dirpath, dirname ,filename in os.walk(PATH):
 
 total_mb_size = total_byte_size / 1048576
 total_gb_size = float(total_mb_size) / 1000.0
-
+msg = "Done!, {0} file(s) deleted ,{1}MB / {2}GB of space freed"
 if deleted_count != 0:
-    print "Done!, {0} file(s) deleted ,{1}MB / {2}GB of space freed".format(deleted_count,total_mb_size,float(total_gb_size))
+    print msg.format(deleted_count,total_mb_size,float(total_gb_size))
 else:
     print "No such files found."
