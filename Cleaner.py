@@ -3,14 +3,12 @@
 
 import os
 import magic
-from datetime import datetime # I will be counting the total size of deleted files and printing it out at the end of the program
 
-#Change this path  
 print "Please enter a correct Starting Path."
 print "All the .rar files within that directory and also deeper, will be deleted."
 PATH = raw_input("> ")
-#PATH = "/media/epack/0CCCA80ECCA7EFDE/downloads"
-#file_type = "" # neskor spravim list vsetkych pripon
+
+#file_type = "" # later I'll make a list of all the compressed extensions
 
 #with magic.Magic(flags=magic.MAGIC_MIME_TYPE) as m:    #TEST
 #    print m.id_filename(PATH) 
@@ -35,21 +33,3 @@ if deleted_count != 0:
     print "Done!, {0} files deleted ,{1} MB of space freed".format(deleted_count,total_mb_size)
 else:
     print "No such files found."
-
-
-
-
-
-
-#print os.stat("/media/epack/0CCCA80ECCA7EFDE/downloads/Fear.The.Walking.Dead.S01E01.720p.HDTV.x264-KILLERS/Fear.The.Walking.Dead.S01E01.720p.HDTV.x264-KILLERS.mkv").st_size
-
-
-
-
-
-
-
-
-
-
-
