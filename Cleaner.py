@@ -9,10 +9,6 @@ print "All the .rar files within that directory and also deeper, will be deleted
 PATH = raw_input("> ")
 
 #file_type = "" # later I'll make a list of all the compressed extensions
-
-#with magic.Magic(flags=magic.MAGIC_MIME_TYPE) as m:    #TEST
-#    print m.id_filename(PATH) 
-    
 deleted_count = 0
 total_byte_size = 0 #bytes
 
