@@ -9,7 +9,7 @@
 #
 #
 # USAGE:
-# python Cleaner.py PATH 
+# python EpackCleaner.py PATH 
 # PATH is a starting directory , the script should delete all the compressed files,
 # in the directory and ALL the subdirectories so be carefull.
 import os
