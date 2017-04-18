@@ -1,5 +1,5 @@
 # This is a script for deleting the compressed files.
-# Using a magic library to determine if the files is indeed compressed.
+# Using a magic library to determine if the files are indeed compressed.
 # Works with some common extentions , feel free to add more.
 import os
 import magic
