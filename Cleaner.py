@@ -1,6 +1,18 @@
-# This is a script for deleting the compressed files.
-# Using a magic library to determine if the files are indeed compressed.
+# DESCRIPTION:
+# This is a simple script for deleting the compressed files.
 # Works with some common extentions , feel free to add more.
+#
+#
+# DEPENDENCES:
+#	filemagic
+# Using a magic library to determine if the files are indeed compressed.
+#
+#
+# USAGE:
+# python Cleaner.py PATH 
+# PATH is a starting directory , the script should delete all the compressed files,
+# in the directory and ALL the subdirectories so be carefull.
+
 import os
 import magic
 
