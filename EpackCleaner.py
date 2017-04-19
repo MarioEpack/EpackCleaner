@@ -16,7 +16,7 @@ import os
 import magic
 
 print "Please enter a correct Starting Path."
-print "All the .rar files within that directory and also deeper, will be deleted."
+print "All the compressed files within that directory and all the subdirectories, will be deleted."
 PATH = raw_input("> ")
 
 list_of_extentions = ["7z","ar","rar","cbz","tar.gz","tgz","tar.Z"
