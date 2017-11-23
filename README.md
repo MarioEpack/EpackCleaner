@@ -1,2 +1,2 @@
 # EpackCleaner.py
-# Simple script used for deleting compressed/archived files.
+# Command-line script used for deleting compressed/archived files.
