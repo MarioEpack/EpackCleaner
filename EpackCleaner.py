@@ -1,5 +1,5 @@
 # DESCRIPTION:
-# This is a simple script for deleting the compressed files.
+# This is a command-line script for deleting the compressed files.
 # Works with some common extentions , feel free to add more.
 #
 #
